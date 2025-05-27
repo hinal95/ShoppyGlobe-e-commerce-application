@@ -9,7 +9,31 @@ nav a {
   margin-right: 1rem;
   text-decoration: none;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
 
+.header__logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header__links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.header__links a:hover {
+  color: #f39c12;
+}
 @media (max-width: 600px) {
   nav a {
     display: block;
